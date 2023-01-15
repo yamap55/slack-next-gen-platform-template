@@ -4,6 +4,13 @@
 
 本リポジトリはSlackの次世代プラットフォーム機能を使用したアプリケーション開発環境のテンプレートリポジトリです。devcontainerの設定をしていますので、VS CodeとDocker、Gitさえあれば各種開発設定済みの開発環境が構築され即時開発可能となっています。GitHubのリポジトリページの「Use this template」を押下して使用してください。
 
+## 使用方法
+
+- アプリ作成
+  - `slack create app_name`
+  - 例: `slack create slack-emoji-monitor`
+- 必要なファイルをコピー
+
 ### Deploy & Create Triggers
 
 ```
@@ -30,7 +37,13 @@ slack env add ENVIRONMENT_NAME [ENVIRONMENT_VALUE]
 6. 起動したら開発可能
 
 ## その他
+
 - lint
   - `deno lint`
 - unittest
   - `deno test`
+
+## 参考リンク
+
+- [Slack 次世代プラットフォーム機能を少しずつ試す](https://qiita.com/seratch/items/b1449132add003e61de6)
+- [公式ドキュメント](https://api.slack.com/future)
